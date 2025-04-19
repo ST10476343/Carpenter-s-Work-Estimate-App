@@ -1,14 +1,15 @@
 1. Basic Information
 --------------------
+
 # EstimatingApp
 - **Developer**: Thoriso Kobe
 - **Student Number**: ST10476343
 - **Group**: Group3
-- **Course**: Introduction to Mobile Application and Web developement
+- **Course**: Introduction to Mobile Application and Web development.
 - **Subject**: IMAD5112
 
 ## Links
-- **GitHub Repository**: [Repository URL]
+- **GitHub Repository**: https://github.com/ST10476343/Carpenter-s-Work-Estimate-App
 ---
 2. Project Overview
 -------------------
@@ -30,10 +31,8 @@ The main goal of this app is to calculate the total estimated cost.
 - Feature 1: RadioButtons.
 - Feature 2: CheckBoxs.
 
-These features aim to provide a specific selection choosed/ picked by the user.
+These features aim to provide a specific selection chosen/ picked by the user.
 ---
-
-4. Design Considerations
 ------------------------
 ## Design Considerations
 
@@ -48,8 +47,6 @@ The design of the **EstimatingApp** was based on the following key consideration
 4. **Performance**: Code optimization was considered to ensure fast response times and low battery usage.
 
 ---
-
-5. GitHub and GitHub Actions Utilization
 ----------------------------------------
 ## GitHub and GitHub Actions
 
@@ -65,21 +62,17 @@ I utilized **GitHub Actions** to automate the build and deployment process. This
 The workflow ensures that my project is automatically built and tested every time I push changes, and it simplifies the process of delivering the final APK/AAB files for submission.
 
 ---
-
-6. Screenshots and App Demo
 ---------------------------
 ## Screenshots
 
 ### App Screenshots:
-!Figure1: 
-*Caption: The home screen of the app showing the task list.*
+!Figure1: ![figure1](https://github.com/user-attachments/assets/d16a2468-5f4a-4f1f-af36-c6633d14d94a)
+*Caption: The home screen of the app shows the task list.*
 
-!Figure2(path_to_screenshot_2.png)
+!Figure2: ![FIGURE2](https://github.com/user-attachments/assets/8a14471e-53f0-4cd0-b577-89ed68c53713)
 *Caption for screenshot 2: The user profile screen where personal information is updated.*
 
 ---
-
-7. Challenges and Learnings
 ---------------------------
 ## Challenges and Learnings
 
@@ -90,20 +83,15 @@ During the development of this project, I encountered several challenges, includ
 2. **Challenge 2**: Arrangement of the Radio buttons. 
    - **Solution**: I used the Radio group option.
 ---
-
-8. Future Enhancements
 ----------------------
 ## Future Enhancements
 
 While the current version of the app provides the core functionality, there are several features that could be added in the future, including:
 
 1. **Feature 1**: color co-ordinationg, regarding the design.
-2. **Feature 2**: two Screens.
+2. **Feature 2**: two screens.
 3. **Feature 3**: Reset button
-
 ---
-
-9. References
 -------------
 ## References
 
@@ -111,7 +99,6 @@ While the current version of the app provides the core functionality, there are 
 2. [Reference 2: Any relevant papers, documentation, or tutorials.]
 
 ---
-10. List of Figures
 -------------------
 ## List of Figures
 
@@ -122,4 +109,4 @@ While the current version of the app provides the core functionality, there are 
 11. Disclosure of AI Usage in My Assessment
 -------------------------------------------
 ##CHATGBT##
-How to us a RadioButton on android Studio: https://chatgpt.com/c/68040755-125c-8001-b12d-81e4ce2f85e9
+How to use a RadioButton on Android Studio: https://chatgpt.com/c/68040755-125c-8001-b12d-81e4ce2f85e9
