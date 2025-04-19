@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/ic_launcher_background"
+        android:backgroundTint="@color/lightgrey"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="30dp"
+            android:background="@drawable/ic_launcher_background"
+            android:backgroundTint="@color/dARKGREY"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="Estimating Application"
+            android:textAlignment="center"
+            android:textSize="34dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Select Task"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/taskGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rdoDoor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Install Door" />
+
+            <RadioButton
+                android:id="@+id/rdoShelf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Build Shelf" />
+
+            <RadioButton
+                android:id="@+id/rdoFurniture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Assemble Furniture" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:text="Select Materials"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/checkWood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wood (R500)" />
+
+        <CheckBox
+            android:id="@+id/checkNails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nails (R20)" />
+
+        <CheckBox
+            android:id="@+id/checkHinges"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hinges (R30)" />
+
+        <EditText
+            android:id="@+id/etHours"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:hint="Enter hours"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btnCalculate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="50dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="Calculate"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/tvDisplay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/ic_launcher_background"
+            android:backgroundTint="@color/dARKGREY"
+            android:hint="Total Cost Estimated"
+            android:textColor="#000"
+            android:textSize="20sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
